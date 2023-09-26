@@ -1,4 +1,4 @@
-package OrangeHRM.pages;
+package OrangeHRM.tests;
 
 import java.util.concurrent.TimeUnit;
 
@@ -9,9 +9,8 @@ import org.testng.annotations.BeforeMethod;
 
 
 public class BaseClass {
- WebDriver driver;
- LoginPage loginpage;
  
+	public WebDriver driver;
  
 @BeforeMethod
   public void launchApp()  {
